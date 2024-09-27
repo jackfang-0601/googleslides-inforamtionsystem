@@ -21,4 +21,13 @@ Here is a example of the reponse:
 
 Create a Google Slides, and copy the url of the slides. 
 
-Go the code, and repace
+Go the code, and replace the url on the thrid line.
+
+```
+
+const presentation = SlidesApp.openByUrl("(Replace will your Google slides url)");
+
+```
+
+
+
