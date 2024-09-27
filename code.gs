@@ -1,12 +1,12 @@
 
 function getResponse() {
-  const presentation = SlidesApp.openByUrl("https://docs.google.com/presentation/d/1TS87SCW_42sKNSVg6C7ycKUvwLvf9CV9T4RtVeDg5BU/edit#slide=id.SLIDES_API805723590_0");
+  const presentation = SlidesApp.openByUrl("(Replace will your Google slides url)");
   var slides = presentation.getSlides();
   for (var i = slides.length - 1; i >= 0; i--) { 
     var slide = slides[i];
     slide.remove();
   }
-  const sheets = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1FnMiVE9y4zJsKXv5D6pGZVSUZmGTOE1vKcIi2EEKiFs/edit?resourcekey#gid=2088115445").getSheetByName("sheet1");
+  const sheets = SpreadsheetApp.getActiveSpreadsheet();
    var last_row = sheets.getLastRow();
    var previous_num = 0;
    const numberList = [];
