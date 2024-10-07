@@ -28,6 +28,22 @@ Go the code, and replace the url on the thrid line.
 const presentation = SlidesApp.openByUrl("(Replace will your Google slides url)");
 
 ```
+# Add a trigger to the code
+Go to the google Appscript and select triggers in the left.
+Select create a new trigger
 
+<img width="618" alt="Screenshot 2024-10-07 at 10 13 51" src="https://github.com/user-attachments/assets/957a3996-c6a6-423b-9014-297fe97c0005">
 
+This made the code run automatically once a form got submited
+
+# Submit a form
+There is a example: reponse
+<img width="1357" alt="Screenshot 2024-10-07 at 10 11 10" src="https://github.com/user-attachments/assets/35a15d16-1374-463b-aae8-59f0ceb33b46">
+The code will generate a google slides based on the reponse. 
+<img width="1089" alt="Screenshot 2024-10-07 at 10 17 40" src="https://github.com/user-attachments/assets/01e2b864-c090-49d3-9b55-caa8f706a829">
+
+# Contact info
+If you have any question. Feel free to email me or ask a question on this page.
+
+My email is jackfang0601@gmail.com
 
